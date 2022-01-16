@@ -4,7 +4,7 @@ function MemosDAO(db) {
     "use strict";
 
     /* If this constructor is called without the "new" operator, "this" points
-     * to the global object. Log a warning and call it correctly. */
+     * to the global object. Log a warning and call it correctly.Please be aware its a Yalin Arie Test */
     if (false === (this instanceof MemosDAO)) {
         console.log("Warning: MemosDAO constructor called without 'new' operator");
         return new MemosDAO(db);
